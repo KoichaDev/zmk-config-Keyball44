@@ -1,6 +1,6 @@
 layers:
-  WIN:
-  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  ⊞ WIN:
+  - {t: '$$mdi:keyboard-tab$$', h: 🖱️ MOUSE}
   - Q
   - W
   - E
@@ -36,15 +36,15 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: /, s: '?'}
-  - WinMac
+  - 🛜 WinMac
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: WIN_1}
-  - {t: MAC, h: toggle}
-  WIN_1:
+  - {t: '$$mdi:keyboard-space$$', h: ⊞ WIN_1}
+  - {t:  MAC, h: toggle}
+  ⊞ WIN_1:
   - '0'
   - '1'
   - '2'
@@ -89,8 +89,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  MAC:
-  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+   MAC:
+  - {t: '$$mdi:keyboard-tab$$', h: 🖱️ MOUSE}
   - Q
   - W
   - E
@@ -126,15 +126,15 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: /, s: '?'}
-  - WinMac
+  - 🛜 WinMac
   - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: MAC_1}
-  - {t: WIN, h: toggle}
-  WinMac:
+  - {t: '$$mdi:keyboard-space$$', h:  MAC_1}
+  - {t: ⊞ WIN, h: toggle}
+  🛜 WinMac:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -177,9 +177,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - WinMac
+  - 🛜 WinMac
   - {t: '$$mdi:transfer$$', type: trans}
-  MOUSE:
+  🖱️ MOUSE:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - F1
   - F2
@@ -200,7 +200,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-tab$$', h: MAC_1}
+  - {t: '$$mdi:keyboard-tab$$', h:  MAC_1}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  MAC_1:
+   MAC_1:
   - {t: '0', type: held alternate}
   - '1'
   - '2'
@@ -242,7 +242,7 @@ layers:
   - '5'
   - '6'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
@@ -265,7 +265,7 @@ layers:
   - '0'
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - '@'
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
