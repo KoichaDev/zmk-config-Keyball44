@@ -187,9 +187,9 @@ layers:
   - F4
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
-  - LANG1
+  - AC SCROLL UP
   - $$mdi:mouse-scroll-wheel$$
-  - LANGUAGE 2
+  - AC SCROLL DOWN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
