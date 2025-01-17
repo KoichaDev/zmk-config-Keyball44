@@ -74,11 +74,11 @@ layers:
   - '8'
   - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '?'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
+  - Ctl+X
+  - Ctl+C
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - {t: '=', s: +}
