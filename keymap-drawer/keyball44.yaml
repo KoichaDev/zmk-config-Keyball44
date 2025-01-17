@@ -187,7 +187,7 @@ layers:
   - F4
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
-  - '&mmv MOVE_X 100'
+  - '&msc MOVE_Y 5'
   - $$mdi:mouse-scroll-wheel$$
   - AC SCROLL DOWN
   - {t: '$$mdi:transfer$$', type: trans}
