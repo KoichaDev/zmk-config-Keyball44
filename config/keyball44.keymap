@@ -10,10 +10,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -58,20 +59,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&lt 4 TAB       &kp Q     &kp W      &kp E         &kp R         &kp T                 &kp Y            &kp U  &kp I      &kp O    &kp P      &kp LBKT
-&kp ESCAPE      &kp A     &kp S      &kp D         &kp F         &kp G                 &kp H            &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z     &kp X      &kp C         &kp V         &kp B                 &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp SLASH
-&kp LGUI        &kp LALT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI             &kp ENTER  &lt 1 BACKSPACE                                        &kp DELETE
+&lt 4 TAB       &kp Q     &kp W             &kp E         &kp R         &kp T                 &kp Y            &kp U  &kp I      &kp O    &kp P      &kp LBKT
+&kp ESCAPE      &kp A     &kp S             &kp D         &kp F         &kp G                 &kp H            &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z     &kp X             &kp C         &kp V         &kp B                 &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp SLASH
+&kp LGUI        &kp LALT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI             &kp ENTER  &lt 1 BACKSPACE                                        &kp DELETE
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none   &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                     &none         &none         &none         &none         &none         &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &trans        &trans        &none         &none
-&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &trans
+&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp BACKSPACE  &kp DELETE      &kp UP_ARROW    &kp HOME         &kp END  &none
+&none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &none                     &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &none
+&none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none                     &none          &none           &trans          &trans           &none    &none
+&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                   &trans
             >;
         };
 
