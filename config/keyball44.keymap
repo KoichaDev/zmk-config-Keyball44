@@ -15,10 +15,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -73,10 +74,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp GRAVE          &kp NUBS                  &kp BACKSPACE   &kp DELETE      &kp UP_ARROW    &kp HOME         &kp END  &none
-&kp ESCAPE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp RIGHT_BRACKET  &none                     &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &none
-&kp LEFT_SHIFT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none              &kp QUESTION              &none           &none           &trans          &trans           &none    &kp MINUS
-&kp EQUAL       &kp NUMBER_0  &kp LCTRL     &kp RIGHT_ALT  &kp BACKSLASH                        &trans  &trans                                                                    &trans
+&kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp GRAVE          &kp NUBS              &kp BACKSPACE   &kp DELETE      &kp UP_ARROW    &kp HOME         &kp END  &none
+&kp ESCAPE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp RIGHT_BRACKET  &none                 &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &none
+&kp LEFT_SHIFT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none              &kp PLUS              &kp LC(X)       &kp LC(C)       &trans          &kp LC(V)        &none    &kp MINUS
+&kp EQUAL       &kp NUMBER_0  &kp LCTRL     &kp RIGHT_ALT  &kp BACKSLASH                    &trans  &trans                                                                    &trans
             >;
         };
 
