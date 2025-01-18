@@ -19,8 +19,8 @@ layers:
   - F
   - G
   - H
-  - {t: J, h: AC SCROLL UP}
-  - {t: K, h: AC SCROLL DOWN}
+  - J
+  - K
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
