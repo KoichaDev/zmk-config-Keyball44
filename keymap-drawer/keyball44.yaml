@@ -68,7 +68,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - NUBS
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - '7'
   - '8'
