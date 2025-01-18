@@ -189,8 +189,8 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
