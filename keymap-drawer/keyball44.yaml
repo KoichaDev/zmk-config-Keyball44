@@ -190,8 +190,8 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - Ctl+Z
-  - Ctl+Y
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+Y
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
