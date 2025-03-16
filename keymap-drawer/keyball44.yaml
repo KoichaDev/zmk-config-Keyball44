@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball44}
 layers:
   WIN:
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
@@ -189,8 +190,8 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - HOME
-  - END
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
